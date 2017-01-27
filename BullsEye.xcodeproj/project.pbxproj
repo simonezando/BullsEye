@@ -11,7 +11,9 @@
 		8FADED281E3B9DF1003F5634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADED271E3B9DF1003F5634 /* ViewController.swift */; };
 		8FADED2B1E3B9DF1003F5634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FADED291E3B9DF1003F5634 /* Main.storyboard */; };
 		8FADED2D1E3B9DF1003F5634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FADED2C1E3B9DF1003F5634 /* Assets.xcassets */; };
-		8FADED301E3B9DF1003F5634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FADED2E1E3B9DF1003F5634 /* LaunchScreen.storyboard */; };
+		8FB8743C1E3BBC8000C70AD3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8743B1E3BBC8000C70AD3 /* AboutViewController.swift */; };
+		8FB8743E1E3BCE6400C70AD3 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 8FB8743D1E3BCE6400C70AD3 /* BullsEye.html */; };
+		8FB874401E3BD50500C70AD3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB8743F1E3BD50500C70AD3 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +22,10 @@
 		8FADED271E3B9DF1003F5634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FADED2A1E3B9DF1003F5634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FADED2C1E3B9DF1003F5634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8FADED2F1E3B9DF1003F5634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FADED311E3B9DF1003F5634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB8743B1E3BBC8000C70AD3 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8FB8743D1E3BCE6400C70AD3 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		8FB8743F1E3BD50500C70AD3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,13 @@
 		8FADED241E3B9DF1003F5634 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				8FB8743F1E3BD50500C70AD3 /* Default-568h@2x.png */,
+				8FB8743D1E3BCE6400C70AD3 /* BullsEye.html */,
 				8FADED251E3B9DF1003F5634 /* AppDelegate.swift */,
 				8FADED271E3B9DF1003F5634 /* ViewController.swift */,
+				8FB8743B1E3BBC8000C70AD3 /* AboutViewController.swift */,
 				8FADED291E3B9DF1003F5634 /* Main.storyboard */,
 				8FADED2C1E3B9DF1003F5634 /* Assets.xcassets */,
-				8FADED2E1E3B9DF1003F5634 /* LaunchScreen.storyboard */,
 				8FADED311E3B9DF1003F5634 /* Info.plist */,
 			);
 			path = BullsEye;
@@ -124,7 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FADED301E3B9DF1003F5634 /* LaunchScreen.storyboard in Resources */,
+				8FB8743E1E3BCE6400C70AD3 /* BullsEye.html in Resources */,
+				8FB874401E3BD50500C70AD3 /* Default-568h@2x.png in Resources */,
 				8FADED2D1E3B9DF1003F5634 /* Assets.xcassets in Resources */,
 				8FADED2B1E3B9DF1003F5634 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB8743C1E3BBC8000C70AD3 /* AboutViewController.swift in Sources */,
 				8FADED281E3B9DF1003F5634 /* ViewController.swift in Sources */,
 				8FADED261E3B9DF1003F5634 /* AppDelegate.swift in Sources */,
 			);
@@ -151,14 +159,6 @@
 				8FADED2A1E3B9DF1003F5634 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8FADED2E1E3B9DF1003F5634 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FADED2F1E3B9DF1003F5634 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -300,6 +300,7 @@
 				8FADED361E3B9DF1003F5634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
